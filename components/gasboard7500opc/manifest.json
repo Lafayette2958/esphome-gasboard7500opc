@@ -1,10 +1,6 @@
 {
-  "name": "gasboard7500opc",
+  "name": "Gasboard7500OPC Sensor",
+  "domain": "gasboard7500opc",
   "version": "1.0.0",
-  "dependencies": ["uart", "sensor"],
-  "files": [
-    "sensor.py",
-    "gasboard7500opc.cpp",
-    "gasboard7500opc.h"
-  ]
+  "dependencies": ["uart", "sensor"]
 }

@@ -1,7 +1,6 @@
 {
   "name": "gasboard7500opc",
   "version": "1.0.0",
-  "esphome_version": ">=2023.5.0",
   "dependencies": ["uart", "sensor"],
   "files": [
     "sensor.py",

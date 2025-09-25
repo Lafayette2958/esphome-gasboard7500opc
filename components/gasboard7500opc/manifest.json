@@ -6,6 +6,5 @@
     "sensor.py",
     "gasboard7500opc.cpp",
     "gasboard7500opc.h"
-    "__init__.py"
   ]
 }

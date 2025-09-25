@@ -1,0 +1,8 @@
+{
+  "name": "gasboard7500opc",
+  "version": "1.0.0",
+  "esphome_version": ">=12.0.0",
+  "dependencies": ["uart", "sensor"],
+  "codeowners": [],
+  "zip_safe": false
+}

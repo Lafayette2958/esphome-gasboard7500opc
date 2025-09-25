@@ -3,6 +3,7 @@ import esphome.config_validation as cv
 from esphome.components import uart, sensor
 from esphome.const import (
     UNIT_CELSIUS,
+    CONF_ID
     ICON_THERMOMETER,
     ICON_WATER,
     DEVICE_CLASS_TEMPERATURE,
@@ -11,6 +12,9 @@ from esphome.const import (
 DEPENDENCIES = ["uart"]
 AUTO_LOAD = ["sensor"]
 CODEOWNERS = ["@Lafayette"]
+MULTI_CONF = True
+
+CONF_ADDRESS = "address"
 
 gasboard7500opc_ns = cg.esphome_ns.namespace("gasboard7500opc")
 Gasboard7500OPCSensor = gasboard7500opc_ns.class_(

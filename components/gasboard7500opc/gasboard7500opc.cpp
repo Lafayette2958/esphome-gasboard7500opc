@@ -1,5 +1,7 @@
 #include "gasboard7500opc.h"
 #include "esphome/core/log.h"
+#include "esphome/core/application.h" 
+
 
 namespace esphome {
 namespace gasboard7500opc {
